@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.edu.pwr.apiatek.visualisation.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+  <VBox alignment="TOP_CENTER">
+      <Label text="Please enter number of assistants (max. 10):" />
+      <VBox prefHeight="8.0" prefWidth="261.0" />
+      <TextField fx:id="amountOfAssistants" maxHeight="20" maxWidth="50" />
+      <VBox prefHeight="6.0" prefWidth="261.0" />
+      <Button fx:id="confirm" alignment="CENTER" onAction="#onConfirmButtonClick" text="Confirm" />
+      <Label fx:id="warning" prefHeight="25.0" alignment="CENTER" />
+  </VBox>
+    <HBox alignment="CENTER">
+    <VBox alignment="CENTER">
+    <Label text="distributor" />
+     <Label fx:id="d" />
+    </VBox>
+
+    <VBox alignment="CENTER">
+        <Label text="assistant" />
+        <Label fx:id="a1" />
+        <Label fx:id="a2" />
+        <Label fx:id="a3" />
+        <Label fx:id="a4" />
+        <Label fx:id="a5" />
+        <Label fx:id="a6" />
+        <Label fx:id="a7" />
+        <Label fx:id="a8" />
+        <Label fx:id="a9" />
+        <Label fx:id="a10" />
+        <Label fx:id="a11" />
+
+    </VBox>
+        <VBox prefHeight="209.0" prefWidth="25.0" />
+    <VBox alignment="CENTER">
+        <Label text="nourishment" />
+        <Label fx:id="n1" />
+        <Label fx:id="n2" />
+        <Label fx:id="n3" />
+        <Label fx:id="n4" />
+        <Label fx:id="n5" />
+        <Label fx:id="n6" />
+        <Label fx:id="n7" />
+        <Label fx:id="n8" />
+        <Label fx:id="n9" />
+        <Label fx:id="n10" />
+        <Label fx:id="n11" />
+    </VBox>
+        <VBox prefHeight="209.0" prefWidth="25.0" />
+    <VBox alignment="CENTER">
+        <Label text="stamina" />
+        <Label fx:id="o1" />
+        <Label fx:id="o2" />
+        <Label fx:id="o3" />
+        <Label fx:id="o4" />
+        <Label fx:id="o5" />
+        <Label fx:id="o6" />
+        <Label fx:id="o7" />
+        <Label fx:id="o8" />
+        <Label fx:id="o9" />
+        <Label fx:id="o10" />
+        <Label fx:id="o11" />
+    </VBox>
+    </HBox>
+   <HBox alignment="CENTER">
+         <Button fx:id="end" alignment="CENTER" onAction="#onEndButtonClick" text="Finish" />
+   </HBox>
+</VBox>
