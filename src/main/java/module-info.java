@@ -1,11 +1,11 @@
-module pl.edu.pwr.apiatek {
+module pl.aleksandra.piatek {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens pl.edu.pwr.apiatek.visualisation to javafx.fxml;
-    exports pl.edu.pwr.apiatek.visualisation;
-    exports pl.edu.pwr.apiatek.logistics;
-    exports pl.edu.pwr.apiatek;
-    opens pl.edu.pwr.apiatek to javafx.fxml;
+    opens pl.aleksandra.piatek.visualisation to javafx.fxml;
+    exports pl.aleksandra.piatek.visualisation;
+    exports pl.aleksandra.piatek.logistics;
+    exports pl.aleksandra.piatek;
+    opens pl.aleksandra.piatek to javafx.fxml;
 }

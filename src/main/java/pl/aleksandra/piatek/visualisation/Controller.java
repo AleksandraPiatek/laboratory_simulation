@@ -1,4 +1,4 @@
-package pl.edu.pwr.apiatek.visualisation;
+package pl.aleksandra.piatek.visualisation;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -6,10 +6,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
-import pl.edu.pwr.apiatek.logistics.*;
-import pl.edu.pwr.apiatek.logistics.Assistant;
-import pl.edu.pwr.apiatek.logistics.Nourishment;
-import pl.edu.pwr.apiatek.logistics.Organism;
+import pl.aleksandra.piatek.logistics.Assistant;
+import pl.aleksandra.piatek.logistics.Nourishment;
+import pl.aleksandra.piatek.logistics.Organism;
 
 import java.util.ArrayList;
 import java.util.List;

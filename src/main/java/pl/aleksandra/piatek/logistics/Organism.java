@@ -1,4 +1,4 @@
-package pl.edu.pwr.apiatek.logistics;
+package pl.aleksandra.piatek.logistics;
 
 import java.util.ArrayList;
 import java.util.List;

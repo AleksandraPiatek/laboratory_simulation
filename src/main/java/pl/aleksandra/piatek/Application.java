@@ -1,4 +1,4 @@
-package pl.edu.pwr.apiatek;
+package pl.aleksandra.piatek;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

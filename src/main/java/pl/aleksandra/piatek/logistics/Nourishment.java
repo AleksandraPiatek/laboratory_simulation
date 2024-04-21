@@ -1,4 +1,4 @@
-package pl.edu.pwr.apiatek.logistics;
+package pl.aleksandra.piatek.logistics;
 
 public class Nourishment {
     private final int id;

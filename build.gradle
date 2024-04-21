@@ -5,7 +5,7 @@ plugins {
     id 'org.beryx.jlink' version '2.25.0'
 }
 
-group 'pl.edu.pwr.apiatek'
+group 'pl.aleksandra.piatek'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -24,8 +24,8 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainModule = 'pl.edu.pwr.apiatek'
-    mainClass = 'pl.edu.pwr.apiatek.HelloApplication'
+    mainModule = 'pl.aleksandra.piatek'
+    mainClass = 'pl.aleksandra.piatek.Application'
 }
 
 javafx {
