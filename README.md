@@ -7,5 +7,3 @@ This project is a multithread simulation of a laboratory. In the laboratory ther
 * JDK version: 11
 * JavaFX version: 17.0.2x
 * Gradle
-
-## Setup
